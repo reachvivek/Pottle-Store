@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/materialWhite</color>
+    <color name="colorPrimaryDark">#642c93</color>
+    <color name="colorAccent">@color/materialBlue400</color>
+
+        <color name="lightWhite">#f5f5f5</color>
+        <color name="white">#fff</color>
+        <color name="black">#000</color>
+        <color name="yellow">#F9AA33</color>
+
+        <color name="whiteregister">#f3f5f9</color>
+
+        <color name="gradientViolet">#8A52E9</color>
+        <color name="gradientLightBlue">#376DF6</color>
+        <color name="background">#fece2f</color>
+
+        <color name="two">#222222</color>
+        <color name="five">#555555</color>
+        <color name="eight">#888888</color>
+
+        <!-- Dashboard Colors -->
+        <color name="home_background">#f2f5f8</color>
+        <color name="banner_background">#F1E9CE</color>
+        <color name="banner_background_light">#56F1E9CE</color>
+
+        <!-- Card Colors -->
+        <color name="card1">#FFF176</color>
+        <color name="card2">#4DD0E1</color>
+        <color name="card3">#8BC34A</color>
+        <color name="card4">#FF4081</color>
+        <color name="card5">#F57F17</color>
+        <color name="card6">#5C6BC0</color>
+        <color name="card7">#00BFA5</color>
+        <color name="card8">#FFF9C4</color>
+
+        <!-- FAQs Colors -->
+        <color name="card_bg_color">#f6f6f6</color>
+        <color name="card_bg_dark_color">#0e0e0e</color>
+        <color name="title_text_color">#258bd6</color>
+        <color name="content_text_color">#999da4</color>
+
+        <!-- Info Colors -->
+        <color name="infocolorPrimary">@color/materialLightBlue600</color>
+        <color name="infocolorPrimaryDark">@color/materialPrimaryDarkBlue</color>
+        <color name="infocolorAccent">@color/materialPink400</color>
+        <color name="colorTextPrimary">@color/black</color>
+        <color name="colorTextSecondary">@color/materialGrey500</color>
+        <color name="colorBackground">@color/white</color>
+        <color name="onBoardingIndicatorInactive">@color/materialLightBlue200</color>
+
+        <!-- Tracker Activity -->
+        <color name="light_red">#FFCDD2</color>
+        <color name="light_green">#C8E6C9</color>
+        <color name="light_blue">#BBDEFB</color>
+        <color name="light_yellow">#FFECB3</color>
+
+        <color name="dark_red">#D32F2F</color>
+        <color name="dark_green">#388E3C</color>
+        <color name="dark_blue">#1976D2</color>
+        <color name="dark_yellow">#FF6F00</color>
+
+        <!-- No Internet -->
+        <color name="davy_grey">#1B232F</color>
+        <color name="cool_grey">#90949c</color>
+        <color name="cinder_grey">#171B1E</color>
+        <color name="prince_ton_orange">#f99500</color>
+        <color name="red">#ff0000</color>
+        <color name="manatee">#979797</color>
+        <color name="onyx">#101010</color>
+        <color name="white_15">#26ffffff</color>
+        <color name="white_50">#80FAFFFF</color>
+</resources>
