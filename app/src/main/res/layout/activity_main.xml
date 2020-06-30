@@ -13,8 +13,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="18dp"
         android:fontFamily="@font/semibold"
-        android:text="Find\nFood Near You"
-        android:textColor="#272677"
+        android:text="@string/Header"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_menu"
-            app:navigationIcon="@drawable/ic_menu_black_24dp" />
+            app:navigationIcon="@drawable/ic_menu_black_24dp"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton2"

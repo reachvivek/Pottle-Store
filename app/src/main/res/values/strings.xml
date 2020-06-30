@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Pottle Store</string>
+
+    <string name="Header">Pottle Store\nDaily Groceries</string>
+    <!--Bottom Navigation Bar Components-->
+    <string name="bag">Bag</string>
+    <string name="search">Search</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="title_profile">Profile</string>
 </resources>
