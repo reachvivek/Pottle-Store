@@ -2,9 +2,24 @@
     <string name="app_name">Pottle Store</string>
 
     <string name="Header">Pottle Store\nDaily Groceries</string>
+    
     <!--Bottom Navigation Bar Components-->
     <string name="bag">Bag</string>
     <string name="search">Search</string>
     <string name="wishlist">Wishlist</string>
     <string name="title_profile">Profile</string>
+    
+    <!--Side Navigation Components-->
+    <string name="home">Home</string>
+    <string name="side_bag">My Bag</string>
+    <string name="shop_category">Shop By Category</string>
+    <string name="notifs">Notifications</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="loc">Location</string>
+    <string name="change_loc">Change Location</string>
+    <string name="current_loc">Current Location</string>
+
+    <string name="share">Share</string>
+    <string name="meetv">Meet The Developer</string>
 </resources>

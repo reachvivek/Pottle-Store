@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.widget.ImageView;
@@ -16,18 +17,19 @@ import java.util.ArrayList;
 
 public class SplashActivity extends AppCompatActivity {
 
+    private ImageView appLogo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash);
-
         startSplashAnim();
     }
 
     private void startSplashAnim() {
 
-        ImageView appLogo = findViewById(R.id.imageView);
+        appLogo = findViewById(R.id.imageView);
         new StarterAnimation(getAnimList(), new OnAnimationListener() {
             @Override
             public void onStartAnim() {
@@ -49,7 +51,8 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void startMainActivity() {
-        startActivity(new Intent(SplashActivity.this, MainActivity.class));
+        appLogo.setVisibility(View.GONE);
+        startActivity(new Intent(SplashActivity.this, UserDashboard.class));
         overridePendingTransition(R.anim.whole_animation, R.anim.no_animaiton);
         finish();
     }

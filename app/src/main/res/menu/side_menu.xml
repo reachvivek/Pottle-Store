@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Location">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/changeid"
+                    android:title="@string/change_loc" />
+
+                <item
+                    android:id="@+id/currentloc"
+                    android:title="@string/current_loc"/>
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/side_bag"
+            android:title="@string/side_bag"/>
+        <item
+            android:id="@+id/side_category"
+            android:title="@string/shop_category"/>
+
+        <item
+            android:id="@+id/notifs"
+            android:title="@string/notifs"/>
+        <item
+            android:id="@+id/faqs"
+            android:title="@string/faqs"/>
+    </group>
+
+    <item
+        android:title="Miscellaneous">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/share"
+                    android:title="@string/share" />
+
+                <item
+                    android:id="@+id/meetv"
+                    android:title="@string/meetv"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

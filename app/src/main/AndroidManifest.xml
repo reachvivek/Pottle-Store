@@ -40,7 +40,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name=".UserDashboard"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" >
             <intent-filter>

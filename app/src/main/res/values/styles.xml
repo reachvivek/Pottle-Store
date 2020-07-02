@@ -4,7 +4,13 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/materialWhite</item>
         <item name="colorPrimaryDark">#642c93</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#642c93</item>
     </style>
 
+    <!--Menu Style-->
+    <style name="navigationTheme">
+
+        <item name="colorPrimary">#642c93</item>
+        <item name="colorControlHighlight">@color/materialWhite</item>
+    </style>
 </resources>

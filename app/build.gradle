@@ -45,5 +45,4 @@ dependencies {
     //Material Color Components
     implementation 'com.github.ma3udmohammadi:Material-Resources-Library:1.0.0'
 
-
 }
