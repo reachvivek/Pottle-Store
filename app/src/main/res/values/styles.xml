@@ -7,10 +7,48 @@
         <item name="colorAccent">#642c93</item>
     </style>
 
+    <!--Firebase Auth UI-->
+    <style name="FirebaseAuthUI" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
     <!--Menu Style-->
     <style name="navigationTheme">
 
         <item name="colorPrimary">#642c93</item>
         <item name="colorControlHighlight">@color/materialWhite</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/coresans_cr_regular</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RegistrationTheme">
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="fontFamily">@font/coresans_cr_regular</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="colorControlNormal">@color/colorGrey2</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:minHeight">30dip</item>
+        <item name="android:maxHeight">30dip</item>
     </style>
 </resources>

@@ -1,4 +1,4 @@
-package com.negociscorp.pottlestore;
+package com.negociscorp.pottlestore.ui.boot;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,12 +8,23 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.app.lets_go_splash.CreateAnim;
 import com.app.lets_go_splash.OnAnimationListener;
 import com.app.lets_go_splash.StarterAnimation;
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.negociscorp.pottlestore.R;
 
 import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Code written by Vivek Kumar Singh on 11/07/2020.
+ */
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -24,6 +35,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash);
+
         startSplashAnim();
     }
 
@@ -44,15 +56,15 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onEnd() {
                 // TODO: Do what you want to do after end of animations
-                startMainActivity();
+                afterSplash();
             }
         }).startSequentialAnimation(appLogo);
 
     }
 
-    private void startMainActivity() {
+    private void afterSplash() {
         appLogo.setVisibility(View.GONE);
-        startActivity(new Intent(SplashActivity.this, UserDashboard.class));
+        startActivity(new Intent(SplashActivity.this, DoInBackground.class));
         overridePendingTransition(R.anim.whole_animation, R.anim.no_animaiton);
         finish();
     }

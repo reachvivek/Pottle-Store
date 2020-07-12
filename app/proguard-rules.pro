@@ -19,3 +19,47 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep,allowshrinking,allowobfuscation enum com.negociscorp.pottlestore.**
+-optimizations !class/unboxing/enum
+
+-optimizationpasses 5
+-dump class_files.txt
+-printseeds seeds.txt
+-printusage unused.txt
+-printmapping mapping.txt
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging*/
+
+-allowaccessmodification
+-repackageclasses '012100'
+-optimizations !method/removal/parameter
+-repackageclasses 'myobfuscated'
+-renamesourcefileattribute SourceFile
+
+-dontwarn rx.**
+-dontwarn retrofit2.**
+-dontwarn okhttp3.**
+-dontwarn okio.**
+
+-keepclassmembers class * {
+  @android.webkit.JavascriptInterface <methods>;
+  }
+-keepattributes JavascriptInterface
+-keepattributes *Annotation*
+-dontwarn com.razorpay.**
+-keep class com.razorpay.** {*;}
+-optimizations !method/inlining/*
+-keepclasseswithmembers class * {  public void onPayment*(...);}
+
+-assumenosideeffects class android.util.Log {
+    public static boolean isLoggable(java.lang.String, int);
+    public static int v(...);
+    public static int i(...);
+    public static int w(...);
+    public static int d(...);
+    public static int e(...);
+    }
+# Prevent R8 from leaving Data object members always null
+-keepclassmembers,allowobfuscation class * {
+  @com.google.gson.annotations.SerializedName <fields>;
+}

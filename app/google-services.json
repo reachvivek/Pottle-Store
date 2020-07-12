@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "260310389202",
+    "firebase_url": "https://pottlestore.firebaseio.com",
+    "project_id": "pottlestore",
+    "storage_bucket": "pottlestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260310389202:android:765d13cea70472c41af80b",
+        "android_client_info": {
+          "package_name": "com.negociscorp.pottlestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260310389202-l3ckvevot5i49lis2d6jejjj5s72icd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV48g5HtEEdCWRvbfIQNEL2caZX4b0LTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260310389202-l3ckvevot5i49lis2d6jejjj5s72icd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

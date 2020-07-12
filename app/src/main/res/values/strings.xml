@@ -2,13 +2,18 @@
     <string name="app_name">Pottle Store</string>
 
     <string name="Header">Pottle Store\nDaily Groceries</string>
-    
+
+    <!--Store Navigation Bar Components-->
+    <string name="tab_foodstore">Food Store</string>
+    <string name="tab_hygienestore">Hygiene Store</string>
+    <string name="tab_greenstore">Green Store</string>
+
     <!--Bottom Navigation Bar Components-->
     <string name="bag">Bag</string>
     <string name="search">Search</string>
     <string name="wishlist">Wishlist</string>
     <string name="title_profile">Profile</string>
-    
+
     <!--Side Navigation Components-->
     <string name="home">Home</string>
     <string name="side_bag">My Bag</string>
@@ -22,4 +27,24 @@
 
     <string name="share">Share</string>
     <string name="meetv">Meet The Developer</string>
+
+    <!--Template String Components-->
+    <string name="retry">Retry</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sing">Sign Up</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="spinner_title">Select Area</string>
+
+    <string name="pic_myslf">Pickup Myself</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Strings For Connection Debug -->
+    <string name="connection_error_title">Couldn\'t connect to Internet</string>
+    <string name="connection_error_description">There may be a problem with your connection</string>
+
 </resources>

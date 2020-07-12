@@ -70,4 +70,13 @@
         <color name="onyx">#101010</color>
         <color name="white_15">#26ffffff</color>
         <color name="white_50">#80FAFFFF</color>
+
+        <!--Presets of Purchased Assets-->
+        <color name="colorWhite">#FFFFFF</color>
+        <color name="colorGrey">#CECECE</color>
+        <color name="colorGrey1">#888888</color>
+        <color name="colorGrey2">#5A5A5A</color>
+        <color name="colorBalck">#1d2021</color>
+        <color name="colorRad">#d71c32</color>
+
 </resources>
